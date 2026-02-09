@@ -4,9 +4,6 @@
 
 # Below this line is going to be a "print" function
 print("Hello, World!")
-print("Hello, World from local2!")
-
-print("Hello, World!")
 
 # Right Click in this Window, and click "Run Hello_World.py"
 # Then Look down to the bottom to see what happens!
