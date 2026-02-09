@@ -4,7 +4,7 @@
 
 # Below this line is going to be a "print" function
 print("Hello, World!")
-print("Hello, World from local!")
+print("Hello, World from local2!")
 
 
 # Right Click in this Window, and click "Run Hello_World.py"
