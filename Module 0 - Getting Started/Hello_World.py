@@ -4,11 +4,10 @@
 
 # Below this line is going to be a "print" function
 print("Hello, World!")
-print()
 
 # Right Click in this Window, and click "Run Hello_World.py"
 # Then Look down to the bottom to see what happens!
 
 # After your first run, try it out for yourself!
-print("hey")
+
 # YOUR CODE HERE #
