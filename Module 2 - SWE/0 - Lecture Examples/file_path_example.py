@@ -28,3 +28,9 @@ if exists(absolute_path):
 else:
     print("Cannot locate train_data at path: ", absolute_path)
 
+# check an absolute path based upon Windows notation
+absolute_path = r"C:\GitHub\engr315_2026\test\ENGR315-sp2026-student\Module 2 - SWE\0 - Lecture Examples\train_data.txt"
+if exists(absolute_path):
+    print("Can see train_data!")
+else:
+    print("Cannot locate train_data at path: ", absolute_path)
