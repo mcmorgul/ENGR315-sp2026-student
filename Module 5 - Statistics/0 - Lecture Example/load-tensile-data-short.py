@@ -12,7 +12,8 @@ df = pd.read_csv(path_to_file)
 
 # get all materials as numpy array
 materials = df['Material_Type'].unique()
-
+print(df['Material_Type'])
+print(materials)
 # convert to a list for easy iteration
 materials = materials.tolist()
 
