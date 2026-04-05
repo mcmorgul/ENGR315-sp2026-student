@@ -37,6 +37,8 @@ expected_counts = expected_prob * len(observations)
 
 # Conduct chi2 test
 # Reduce the degrees of freedom as the normal distribution has two parameters
+print(observed_counts)
+print(expected_counts)
 (chi_stat, p_value) = chisquare(f_obs=observed_counts, f_exp=expected_counts, ddof=2)
 print('Chi2 stat: ', chi_stat, 'p-value: ', p_value)
 
