@@ -52,7 +52,7 @@ plt.plot(time, noise_signal + source_signal, label='Combined Signal')
 plt.legend()
 plt.show()
 
-''' 
+
 plt.figure(2)
 plt.title('Base Signal with noiseing Frequency')
 plt.xlabel('Time (s)')
@@ -67,4 +67,3 @@ plt.subplot(313)
 plt.plot(time, noise_signal + source_signal, label='Combined Signal')
 plt.legend()
 plt.show()
-'''
